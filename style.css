@@ -1,0 +1,1108 @@
+@font-face {
+    font-family: printrest;
+    src: url(fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+@media (max-width: 320px) {
+    body .nav {
+        display: none;
+    }
+    body .main {
+         padding: 0;
+         margin: 0;
+    }
+    body .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 13vh;
+    }
+    body .main img {
+        width: max-content;
+    }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    body .nav {
+        display: none;
+    }
+    body .main {
+         padding: 0;
+         margin: 0;
+    }
+    body .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 13vh;
+    }
+    body .main img {
+        width: max-content;
+    }
+}
+
+
+
+
+@media (min-width: 375px) and (max-width: 420px) {
+    body .nav {
+        display: none;
+    }
+    body .main {
+         padding: 0;
+         margin: 0;
+    }
+    body .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 13vh;
+    }
+    body .main img {
+        width: max-content;
+    }
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: printrest;
+}
+.nav {
+    display: flex;
+    height: 8vh;
+    gap: 3vh;
+    align-items: center;
+    text-align: center;
+    padding: 2vh;
+}
+.logo img {
+    height: 3vh;
+}
+img {
+    cursor: pointer;
+}
+.items ul{
+    display: flex;
+    gap: 1vh;
+    list-style-type: none;
+    font-size: 1.5vh;
+    font-weight: 600;
+}
+span li {
+    color: white;
+    background-color: black;
+    padding: 1.5vh;
+    border-radius: 3vh;
+    cursor: pointer;
+}
+.itembg li {
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 1.5vh;
+    border-radius: 3vh;
+}
+.search input {
+    width: 73vw;
+    padding: 2vh;
+    color: white;
+    border: none;
+    border-radius: 3vh;
+    background-color: rgb(241, 241, 241);
+}
+.search input:hover {
+    background-color: rgb(225, 225, 225);
+}
+.search input::placeholder {
+    font-size: 1.8vh;
+}
+.navicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3vh;
+}
+.navicons i {
+    font-size: 2.5vh;
+    cursor: pointer;
+    color: rgb(118, 118, 118);
+}
+.navicons img {
+    height: 3vh;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 3vh;
+}
+.main {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.122);
+}
+.main2 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.122);
+}
+.main3 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.122);
+}
+.main4 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.122);
+}
+.main5 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.122);
+}
+.main6 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.122);
+}
+.main7 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.122);
+}
+.main8 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    background-color: rgba(213, 213, 213, 0.122);
+}
+.column1img1 img {
+    height: 55vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;    
+}
+.effect {
+    height: 55vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 55vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column1img2 img {
+    height: 55vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect1 {
+    height: 55vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect1 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect1 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect1 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect1 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect1:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 55vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column1img3 img {
+    height: 55vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect2 {
+    height: 55vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect2 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect2 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect2 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect2 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect2:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 55vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column1img4 img {
+    height: 55vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect3 {
+    height: 55vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect3 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect3 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect3 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect3 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect3:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 55vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column1img5 img {
+    height: 45vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect4 {
+    height: 45vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect4 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect4 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect4 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect4 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect4:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 45vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column1img6 img {
+    height: 35vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect5 {
+    height: 35vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect5 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect5 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect5 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect5 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect5:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 35vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column1img7 img {
+    height: 30vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect6 {
+    height: 30vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect6 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect6 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect6 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect6 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect6:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 30vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column2img1 img {
+    height: 25vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect7 {
+    height: 25vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect7 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect7 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect7 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect7 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect7:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 25vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column2img2 img {
+    height: 30vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect8 {
+    height: 30vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect8 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect8 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect8 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect8 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect8:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 30vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column2img3 img {
+    height: 55vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column2img4 img {
+    height: 45vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.effect10 {
+    height: 45vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect10 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect10 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect10 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect10 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect10:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 45vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column2img5 img {
+    height: 55vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column2img6 img {
+    height: 35vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: absolute;
+    border: 1vh solid white;
+}
+.effect12 {
+    height: 35vh;
+    width: 13vw;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    background-color: rgba(0, 0, 0, 0.557);
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 4vh;
+}
+.effect12 i {
+    background-color: white;
+    height: 3.5vh;
+    width: 3.5vh;
+    display: flex;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.effect12 i:hover {
+    background-color: rgb(225, 225, 225)
+}
+.effect12 button {
+    background-color: red;
+    border: none;
+    height: 4vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    width: 4vw;
+    font-size: 1.7vh;
+    color: white;
+    font-weight: bold;
+}
+.effect12 button:hover {
+    background-color: rgb(201, 3, 3)
+}
+.opts {
+    display: flex;
+    gap: 1vh;
+}
+.effect12:hover {
+    border: 1vh solid white;    
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 35vh;
+    width: 13vw;
+    opacity: 1;
+    border-radius: 4vh;
+    position: relative;
+    z-index: 7;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: end;
+    padding-right: 1.6vh;
+}
+.column2img7 img {
+    height: 55vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column2img8 img {
+    height: 55vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column3img1 img {
+    height: 35vh;
+    width: 13vw;
+    position: absolute;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+
+.column3img2 img {
+    height: 55vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column3img3 img {
+    height: 45vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column3img4 img {
+    height: 45vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column3img5 img {
+    height: 55vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column3img6 img {
+    height: 55vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column3img7 img {
+    height: 35vh;
+    position: absolute;
+    width: 13vw;
+    border-radius: 4vh;
+    border: 1vh solid white;
+}
+.column4 {
+    display: flex;
+    flex-direction: column;
+}
+.column5 {
+    display: flex;
+    flex-direction: column;
+}
+.column6 {
+    display: flex;
+    flex-direction: column;
+}
+.column7 {
+    display: flex;
+    flex-direction: column-reverse;
+}
